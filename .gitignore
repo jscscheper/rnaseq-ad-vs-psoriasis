@@ -1,0 +1,33 @@
+# R Project Gitignore
+
+# History files
+.Rhistory
+.Rapp.history
+
+# Session Data files
+.RData
+.Ruserdata
+
+# User-specific files
+.Rproj.user/
+
+# R Markdown
+*_cache/
+/cache/
+*.utf8.md
+*.knit.md
+
+# Large Data Files (optional, uncomment if needed)
+# *.rds
+# *.tsv
+# *.txt
+
+# Mac
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# Environment
+venv/
+__MACOSX
