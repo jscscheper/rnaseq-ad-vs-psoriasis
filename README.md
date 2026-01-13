@@ -24,14 +24,14 @@ A comprehensive RNA-seq differential expression analysis project comparing gene 
 
 This project analyzes RNA-seq data from the GEO dataset GSE121212, comparing gene expression profiles between atopic dermatitis (AD) and psoriasis (PSO) conditions. The analysis includes:
 
-- **Data preprocessing** and quality control
-- **Differential expression analysis** using DESeq2
-- **Pathway enrichment** and functional annotation
-- **Visualization** including heatmaps and volcano plots
+- Data preprocessing and quality control
+- Differential expression analysis using DESeq2
+- Pathway enrichment and functional annotation
+- Visualization including heatmaps and volcano plots
 
 ---
 
-## Project Structure
+## Project structure
 
 ```
 rna_diff/
@@ -52,14 +52,14 @@ rna_diff/
 
 ---
 
-## Technology Stack
+## Technology stack
 
 | Component | Technology | Purpose |
 |-----------|------------|---------|
-| **Language** | R 4.x | Statistical analysis |
-| **DE Analysis** | DESeq2 | Differential expression |
-| **Visualization** | ggplot2 | Plots and figures |
-| **Data Source** | GEO (GSE121212) | RNA-seq counts |
+| Language | R 4.x | Statistical analysis |
+| DE analysis | DESeq2 | Differential expression |
+| Visualization | ggplot2 | Plots and figures |
+| Data source | GEO (GSE121212) | RNA-seq counts |
 
 ---
 
@@ -67,9 +67,9 @@ rna_diff/
 
 The analysis uses publicly available data from NCBI GEO:
 
-- **Dataset**: [GSE121212](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE121212)
-- **Samples**: Skin biopsies from AD and PSO patients
-- **Format**: Raw read counts (GRCh38.p13)
+- Dataset: [GSE121212](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE121212)
+- Samples: Skin biopsies from AD and PSO patients
+- Format: Raw read counts (GRCh38.p13)
 
 ---
 
